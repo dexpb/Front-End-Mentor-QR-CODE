@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,600&family=Open+Sans:wght@300;400;700&family=Outfit:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color:  hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 18px;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.card img {
+    border-radius: 12px;
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.card img:hover {
+    transform: scale(1.02);
+}
+.texto {
+    padding: 22px 10px;
+}
+
+.texto h2 {
+ color: hsl(218, 44%, 22%);
+ padding-bottom: 12px;
+}
+
+.texto p {
+ color: hsl(220, 15%, 55%)
+}
+
+.attribution {
+    padding-top: 20px;
+    font-size: 0.78rem;
+}
